@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://183-250-195-1.ksyungslb.com/bigota.d.miui.com/V12.0.1.0.QEDCNXM/miui_MIMAX3_V12.0.1.0.QEDCNXM_79de8df6ea_10.0.zip?ksy_gslb_referer=http%3A%2F%2Fwww.miui.com%2Fgetrom.php%3Fr%3D352%26m%3Dyes%26app%3Dfalse
+  ROM_URL: https://bigota.d.miui.com/V12.0.4.0.PEFCNXM/miui_HMS2_V12.0.4.0.PEFCNXM_b220c0a02e_9.0.ziphttp%3A%2F%2Fwww.miui.com%2Fgetrom.php%3Fr%3D352%26m%3Dyes%26app%3Dfalse
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -51,7 +51,7 @@ jobs:
               sudo bash setup.sh
        
        - name: Download Stock Rom & Generate GSI
-         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME --ab
+         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME --a
        
        - name: Zip GSI  
          run: |
