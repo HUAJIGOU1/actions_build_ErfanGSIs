@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.4.0.PEFCNXM/miui_HMS2_V12.0.4.0.PEFCNXM_b220c0a02e_9.0.ziphttp%3A%2F%2Fwww.miui.com%2Fgetrom.php%3Fr%3D352%26m%3Dyes%26app%3Dfalse
+  ROM_URL: https://bigota.d.miui.com/V12.0.4.0.PEFCNXM/miui_HMS2_V12.0.4.0.PEFCNXM_b220c0a02e_9.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
